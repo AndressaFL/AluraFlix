@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AluraFlix 2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Aluraflix V2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header id="#top">
+    <div class="container">
+
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="logo" alt="Logo">
+
+    </div>
+    <!--container-->
+
+    <div class="demo-wrap">
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/jNo3zmhXE9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div class="box">
+        <h1>Movies, series and more.</h1>
+        <p>Save your favorites easily!</p>
+
+        <input type="text" class="inserirNome" id="entradaNome" placeholder="Movie's name">
+
+        <input type="text" name="link" id="link" placeholder="Image's link">
+
+        <input type="submit" value="Movies" onclick="add(1)">
+        <input type="submit" value="Series" onclick="add(2)">
+
+      </div>
+    </div>
+
+    <!--conteudo-->
+
+  </header>
+
+  <main>
+
+    <h2 id="filmes">Movies</h2>
+
+    <div id="listaFilme"></div>
+
+    <h2 id="series">Series</h2>
+
+    <div id="listaSerie"></div>
+
+  </main>
+
+  <script src="functions.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
